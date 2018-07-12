@@ -1,0 +1,5 @@
+export RELEASE="v3.8"
+export MIRROR="http://mirrors.ustc.edu.cn/alpine"
+export PACKAGES="alpine-baselayout,busybox,alpine-keys,apk-tools,libc-utils"
+export BUILD_OPTIONS=(-b -s -t UTC -r $RELEASE -m $MIRROR -p $PACKAGES)
+export TAGS=(taobeier/alpine:3.8 taobeier/alpine:latest)

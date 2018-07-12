@@ -1,0 +1,4 @@
+export RELEASE="v3.1"
+export MIRROR="http://mirrors.ustc.edu.cn/alpine"
+export BUILD_OPTIONS=(-d -s -E -t UTC -r $RELEASE -m $MIRROR)
+export TAGS=(taobeier/alpine:3.1)
